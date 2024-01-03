@@ -28,6 +28,13 @@ while (!(includeLowercase || includeUppercase || includeNumeric || includeSpecia
   includeNumeric = confirm("Include numeric characters?");
   includeSpecial = confirm("Include special characters?");
 }
+// Character sets based on user choices
+let charset = "";
+const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const numericChars = "0123456789";
+const specialChars = "!@#$%^&*()-_=+[]{}|;:'\",.<>?/";
+
 
 // Write password to the #password input
 function writePassword() {
