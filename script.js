@@ -13,7 +13,21 @@ length = parseInt(prompt("Enter the length of the password (between 8 and 128 ch
 }
 
 
+// wich character the client prefer ?
+const includeLowercase = confirm("Include lowercase characters?");
+const includeUppercase = confirm("Include uppercase characters?");
+const includeNumeric = confirm("Include numeric characters?");
+const includeSpecial = confirm("Include special characters?");
 
+
+// we allow the website show a message to if any of our options has been selected
+while (!(includeLowercase || includeUppercase || includeNumeric || includeSpecial)) {
+  alert("Please select at least one character type.");
+  const includeLowercase = confirm("Include lowercase characters?");
+  const includeUppercase = confirm("Include uppercase characters?");
+  const includeNumeric = confirm("Include numeric characters?");
+  const includeSpecial = confirm("Include special characters?");
+}
 
 // Write password to the #password input
 function writePassword() {
