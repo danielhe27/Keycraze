@@ -35,6 +35,12 @@ const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numericChars = "0123456789";
 const specialChars = "!@#$%^&*()-_=+[]{}|;:'\",.<>?/";
 
+// with this condition the password will build based on the user preferences
+if (includeLowercase) charset += lowercaseChars;
+if (includeUppercase) charset += uppercaseChars;
+if (includeNumeric) charset += numericChars;
+if (includeSpecial) charset += specialChars;
+
 
 // Write password to the #password input
 function writePassword() {
