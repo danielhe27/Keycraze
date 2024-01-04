@@ -20,10 +20,11 @@ This password generator tool allows users to create custom passwords with variou
 Set password length between 8 and 128 characters.
 Choose from different character types: lowercase, uppercase, numeric, and special characters.
 Generate passwords meeting specific criteria.
-Usage
+
+#Usage
 
 Open the live demo or download the repository.
-Open the index.html file in your web browser.
+# https://danielhe27.github.io/Keycraze/
 Click the "Generate Password" button to begin.
 Follow the prompts to select password criteria.
 View the generated password in the designated field.
@@ -35,6 +36,11 @@ View the generated password in the designated field.
 ![screencapture-file-Users-herrera-keygen-Keycraze-index-html-2024-01-03-11_43_55](https://github.com/danielhe27/my-portfolio-wk/assets/142111314/bea4f73f-5a43-4c1a-9bb9-fdf5db9ef459)
 
 
-License
+#License
 
 This project is licensed under the MIT License.
+
+#contact
+
+
+
