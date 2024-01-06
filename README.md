@@ -6,11 +6,11 @@ A simple web-based tool that generates secure passwords based on user-defined cr
 
 # Table of Contents
 
-Description
-Features
-Usage
-Screenshots
-License
+##Description
+##Features
+##Usage
+##Screenshots
+##License
 
 # Description
 This password generator tool allows users to create custom passwords with various options such as length and character types. It provides a secure way to generate passwords for different purposes.
